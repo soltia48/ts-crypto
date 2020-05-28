@@ -1,9 +1,14 @@
-/*
+/**
  * ArrayHelper.ts
  * @author soltia48
  * @date 2019-02-23
  */
 
+ /**
+  * Is equals arrays
+  * @param a Subject A
+  * @param b Subject B
+  */
 export const equal = <T>(a: Array<T>, b: Array<T>): boolean => {
   if (a === b) {
     return true;
